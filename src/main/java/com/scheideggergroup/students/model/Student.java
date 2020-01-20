@@ -15,6 +15,7 @@ public class Student {
     private String name;
     @NotNull
     private Date birthDate;
+
     public Student(){
         super();
     }
@@ -36,7 +37,6 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
-
     public Date getBirthDate() {
         return birthDate;
     }
